@@ -7,7 +7,7 @@ clear
 echo ""
 echo "Automated Man in the Middle Script for Attacking SSL Connections"
 echo ""
-echo "By Tyler Price"
+echo "By: Tyler Price"
 echo ""
 
 #Flushing IPTables
