@@ -41,7 +41,7 @@ if [[ $dport = "" ]]; then
 fi
 
 
-iptables -t nat -A PREROUTING -p tcp -i "$interface" --destination-port 80 -j REDIRECT --to-port $dport
+iptables -t nat -A PREROUTING -p tcp -i $interface --destination-port 80 -j REDIRECT --to-port $dport
 
 
 echo "[*] IP Tables Enabled with interface of: $interface and Destination Port of: $dport"
