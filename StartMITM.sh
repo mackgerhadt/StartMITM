@@ -108,26 +108,3 @@ echo "[*] Writing Log to File: $filename"
 echo ""
 
 echo "[*] Proccess Complete...Exiting"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
